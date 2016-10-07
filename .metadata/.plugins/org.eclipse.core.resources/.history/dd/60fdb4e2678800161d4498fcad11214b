@@ -1,0 +1,32 @@
+<suite name="OrangeHRM Test suite" parallel="tests">
+  <test name="On chrome">
+   <parameter name="browser" value="chrome"/>
+    <classes>
+	  <class name="day21.Login"/>
+      <class name="day21.AddEmployee"/>
+      
+      <class name="day21.DeleteEmployee"/>
+      <class name="day21.Logout"/>
+    </classes>
+  </test> 
+  <test name="On firefox">
+   <parameter name="browser" value="fireox"/>
+    <classes>
+	  <class name="day21.Login"/>
+      <class name="day21.AddEmployee"/>
+      
+      <class name="day21.DeleteEmployee"/>
+      <class name="day21.Logout"/>
+    </classes>
+  </test> 
+  <test name="On safari">
+   <parameter name="browser" value="safari"/>
+    <classes>
+	  <class name="day21.Login"/>
+      <class name="day21.AddEmployee"/>
+      
+      <class name="day21.DeleteEmployee"/>
+      <class name="day21.Logout"/>
+    </classes>
+  </test> 
+</suite> 

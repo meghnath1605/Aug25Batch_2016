@@ -1,0 +1,17 @@
+package day28;
+
+public class DBTesting1 {
+
+	
+	public static void main(String[] args) {
+		String url="jdbc:mysql://localhost:3306/";
+		String dbname="sys";
+		String DBdriver="com.mysql.jdbc.Driver";
+		String userName="root";
+		String password="krishna";
+		
+		Class.forName(DBdriver).newInstance();
+
+	}
+
+}

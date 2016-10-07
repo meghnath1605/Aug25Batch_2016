@@ -1,0 +1,10 @@
+package com.projectname;
+
+public class FirefoxLaunch {
+	@Test
+	public void launchTest()
+	{
+		Firefoxd
+	}
+
+}

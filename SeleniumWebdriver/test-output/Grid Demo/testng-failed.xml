@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid Demo]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="On Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day23.ScreenshotsOnGrid">
+        <methods>
+          <include name="screesnhotTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day23.ScreenshotsOnGrid -->
+    </classes>
+  </test> <!-- On Chrome(failed) -->
+</suite> <!-- Failed suite [Grid Demo] -->

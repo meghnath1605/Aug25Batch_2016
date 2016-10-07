@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test suite]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test name="On chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day21.AddEmployee">
+        <methods>
+          <include name="addEmployeeTest"/>
+        </methods>
+      </class> <!-- day21.AddEmployee -->
+      <class name="day21.Logout">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- day21.Logout -->
+      <class name="day21.DeleteEmployee">
+        <methods>
+          <include name="deleteEmpTest"/>
+        </methods>
+      </class> <!-- day21.DeleteEmployee -->
+    </classes>
+  </test> <!-- On chrome(failed) -->
+  <test name="On firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day21.AddEmployee">
+        <methods>
+          <include name="addEmployeeTest"/>
+        </methods>
+      </class> <!-- day21.AddEmployee -->
+      <class name="day21.Logout">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- day21.Logout -->
+      <class name="day21.DeleteEmployee">
+        <methods>
+          <include name="deleteEmpTest"/>
+        </methods>
+      </class> <!-- day21.DeleteEmployee -->
+    </classes>
+  </test> <!-- On firefox(failed) -->
+  <test name="On safari(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="day21.AddEmployee">
+        <methods>
+          <include name="addEmployeeTest"/>
+        </methods>
+      </class> <!-- day21.AddEmployee -->
+      <class name="day21.Logout">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- day21.Logout -->
+      <class name="day21.DeleteEmployee">
+        <methods>
+          <include name="deleteEmpTest"/>
+        </methods>
+      </class> <!-- day21.DeleteEmployee -->
+    </classes>
+  </test> <!-- On safari(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test suite] -->
